@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <ul class="menu-list">
-      <li><a href="./1-timer.html">Timer</a></li>
-      <li><a href="./2-snackbar.html">Snackbar</a></li>
-    </ul>
+    <form class="form">
+      <label>
+        <input
+          type="text"
+          name="search-text"
+          placeholder="Search images..."
+          required
+        />
+      </label>
+      <button type="submit">Search</button>
+    </form>
+    <div class="box-loader is-hidden">
+      <span class="loader"></span>
+    </div>
+    <ul class="gallery"></ul>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
