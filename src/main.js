@@ -1,7 +1,5 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-// import './js/pixabay-api';
-// import './js/render-functions';
 
 const form = document.querySelector('.form');
 
